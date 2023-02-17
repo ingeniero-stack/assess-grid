@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+.body{
+    background-color: hsl(226, 43%, 10%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: rubik;
+    color: whitesmoke;
+}
+
+/* Set up the container */
+.Container {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    grid-template-areas: 
+      "Daniel Jonathan Kira"    
+      "Jeanette Patrick Kira";
+  }
+  
+  /* Style the child containers */
+  .Container{
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Set the grid areas for each child container */
+  .Daniel {
+    grid-area: Daniel;
+  }
+  
+  .Jonathan {
+    grid-area: Jonathan;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 4%;
+  }
+  
+  .Kira1 {
+    grid-area: Kira;
+  }
+  
+  .Jeanette {
+    grid-area: Jeanette;
+  }
+  
+  .Patrick {
+    grid-area: Patrick;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 4%;
+  }
+  
+  .container #kira2 {
+    grid-area: Kira;
+  }
+  
